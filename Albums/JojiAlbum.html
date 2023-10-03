@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor Star</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/jpg" href="/img/starmusiclogo2.png">
+    <link rel="stylesheet" href="/css/ALBUM.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg barraNav">
+            <div class="container-fluid">
+                <!--link a página principal-->
+                <img class="logo" src="/img/starmusiclogo2.png" alt="...">
+                <a class="navbar-brand" href="/index.html">
+                    STAR MUSIC
+
+
+                </a>
+
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tendencias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Novedades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tu espacio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ">Favoritos</a>
+                        </li>
+                    </ul>
+                    <div class=" nav-item login">
+                        <a class="nav-link" href="/login.html">
+                            Iniciar sesión
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <div class="songList">
+            <div class="row">
+                <div class="col-md-6 col-lg-6">
+                    <img class="PRINCIPALALBUM" src="https://i.scdn.co/image/ab67616d0000b27353f6fa0d2589c6a7174f4b81" />
+                </div>
+                <div class="TituloAlbum col-md-6 col-lg-6">
+                    <h7>Álbum</h7>
+                    <h1 class="ArtistaAlbum">Nectar</h1>
+                    <h3 class="nombreArtistaSmall">Joji ● 2020 ● 18 canciones</h3> 
+                    <h3> 53 min 14 s</h3>
+                </div>
+            </div>
+            <div class="Spotify">
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/album/3HHNR44YbP7XogMVwzbodx?utm_source=generator&theme=0"
+                    width="100%" height="550" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+            </div>
+            <h1 class="Encabezados"> Más del artista</h1>
+            <div class="row">
+
+
+
+                <div class=" col-6  col-lg-3">
+    
+    
+                    <a href="parteSuperior.html">
+                        <div class="containerAlbum">
+                            <img class="ALBUM"
+                                src="https://i.scdn.co/image/ab67616d0000b27360ba1d6104d0475c7555a6b2" />
+                        </div>
+                    </a>
+                    <h6 class="MasDelArtista">Ballads 1</h6> <h8>Álbum</h8>
+
+    
+    
+                </div>
+                <div class=" ALBUMREPRODUTOR  col-6  col-lg-3">
+    
+    
+                    <a href="PostmaloneAlbum.html">
+                        <div class="containerAlbum">
+                            <img class="ALBUM" src="data:image/jpeg;base64,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" />
+                        </div>
+                    </a>
+                    <h6 class="MasDelArtista">Glimpse of Us</h6>
+                    <h8>Álbum</h8>
+            
+    
+    
+                </div>
+                <div class=" col-6  col-lg-3">
+    
+    
+                    <a href="PostmaloneAlbum.html">
+                        <div class="containerAlbum">
+                            <img class="ALBUM" src="https://i.scdn.co/image/ab67616d0000b273eaac2a7955f5b8967991cacb" />
+                        </div>
+                    </a>
+                    <h6 class="MasDelArtista">SMITHEREENS</h6>
+                    <h8>Álbum</h8>
+            
+    
+    
+                </div>
+    
+                <div class=" col-6  col-lg-3">
+    
+    
+                    <a href="PostmaloneAlbum.html">
+                        <div class="containerAlbum">
+                            <img class="ALBUM" src="https://i.scdn.co/image/ab67616d00001e020e991b59cee17246a5e604d0" />
+                        </div>
+                    </a>
+                    <h6 class="MasDelArtista">Daylight</h6>
+                    <h8>Sencillo</h8>
+            
+    
+    
+                </div>
+    
+    
+            
+            </div>    
+<h1 class="Encabezados">También te podría interesar</h1>
+            <div class="row">
+
+
+
+                <div class=" col-6  col-lg-3">
+    
+    
+                    <a href="parteSuperior.html">
+                        <div class="containerAlbum">
+                            <img class="ALBUM"
+                                src="https://i.scdn.co/image/ab67616d0000b27373f23353d004a15bc0c338d1" />
+                        </div>
+                    </a>
+                    <h6 class="MasDelArtista">More Life</h6>
+                    <h8>Álbum  ●  Charles Ans</h8>
+
+    
+    
+                </div>
+                <div class=" col-6  col-lg-3">
+    
+    
+                    <a href="PostmaloneAlbum.html">
+                        <div class="containerAlbum">
+                            <img class="ALBUM" src="https://i.scdn.co/image/ab67616d0000b2738b52c6b9bc4e43d873869699" />
+                        </div>
+                    </a>
+                    <h6 class="MasDelArtista">DAMN</h6>
+                    <h8>Álbum ● Kendrick Lamar</h8>
+            
+    
+    
+                </div>
+                <div class=" col-6  col-lg-3">
+    
+    
+                    <a href="PostmaloneAlbum.html">
+                        <div class="containerAlbum">
+                            <img class="ALBUM" src="https://i.scdn.co/image/ab67616d0000b2737fe4a82a08c4f0decbeddbc6" />
+                        </div>
+                    </a>
+                    <h6 class="MasDelArtista">Changes</h6>
+                    <h8>Álbum ● Justin Bieber</h8>
+            
+    
+    
+                </div>
+    
+                <div class=" col-6  col-lg-3">
+    
+    
+                    <a href="PostmaloneAlbum.html">
+                        <div class="containerAlbum">
+                            <img class="ALBUM" src="https://i.scdn.co/image/ab67616d0000b2738940ac99f49e44f59e6f7fb3" />
+                        </div>
+                    </a>
+                    <h6 class="MasDelArtista">Flower Boy</h6>
+                    <h8>Álbum ● Tyler, The Creator</h8>
+            
+    
+    
+                </div>
+    
+    
+            
+            </div>    
+            <div class="songItemContainer">
+
+
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>
+            <h9> © Copyright 2022 STAR MUSIC.</h9>
+        </p>
+        <p>
+            <h9>derechos reservados.</h9>
+        </p>
+
+        <p>
+            <h9>Disclaimer | Copyright | Newsletter</h9>
+        </p>
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

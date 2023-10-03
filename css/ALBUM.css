@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+.barraNav a {
+    color: rgb(255, 255, 255);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    text-shadow: 0 0 5px black;
+
+}
+
+.barraNav {
+    background: rgb(231, 81, 0);
+    background: linear-gradient(90deg, rgba(231, 81, 0, 1) 0%, rgba(255, 166, 0, 1) 26%, rgba(253, 145, 29, 1) 50%, rgba(254, 166, 13, 1) 77%, rgba(255, 102, 0, 1) 100%);
+
+}
+
+.logo {
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 60px;
+    width: 100px;
+}
+
+.login {
+    padding-left: 800px;
+}
+
+.login {
+    padding-left: 750px;
+}
+.PRINCIPALALBUM{
+    border-radius: 8%;
+    width: 500px;
+    margin-left: 70px;
+}
+
+img {
+    width: 100%;
+}
+
+
+body{
+    background: linear-gradient(0deg, rgba(67, 67, 106, 1) 0%, rgba(60, 64, 97, 1) 8%, rgba(39, 39, 79, 1) 27%, rgba(36, 36, 70, 1) 45%, rgba(10, 9, 15, 1) 100%);
+
+}
+
+.TituloAlbum {
+    margin-top: 60px;
+    align-items: center;
+}
+
+
+.linkArtista{
+    color: white;
+}
+.linkArtista:hover{
+    color: orange;
+}
+
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+   font-family: 'Varela Round', sans-serif;
+   margin: 23px auto;
+   width: 90%;
+   border-radius: 20px;
+   padding: 34px;
+   align-items: center
+   ;
+
+}
+.MasDelArtista{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+h8{
+    opacity: 50%;
+    margin-left: 10px ;
+}
+.Encabezados{
+    margin-bottom: 20px;
+    margin-top: 60px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+
+
+
+.ALBUM {
+    border-radius: 8%;
+    justify-content: center;
+    object-fit: cover;
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+
+.containerAlbum{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8%;
+    
+
+}
+
+
+
+.ALBUM:hover{
+    transform: scale(1.1);
+    opacity: 60%;
+    }
+
+
+
+.Spotify{
+    margin-top: 25px;
+}
+.ArtistaAlbum{
+    font-size: 90px;
+    font-weight:bolder;
+}
+.footer {
+
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    background: rgb(231, 81, 0);
+    background: linear-gradient(90deg, rgba(231, 81, 0, 1) 0%, rgba(255, 166, 0, 1) 26%, rgba(253, 145, 29, 1) 50%, rgba(254, 166, 13, 1) 77%, rgba(255, 102, 0, 1) 100%);
+    padding-left: 60px;
+}
+
+
+
+@media (max-width: 575.98px) {
+    h3{
+        font-size: 1rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 3.5rem !important;
+    }
+    h4{
+        font-size: 1rem;
+    }
+    .row h6{
+        font-size: 1rem;
+        text-align: left;
+    }
+    .container{
+        width: 90%;
+    }
+    .PRINCIPALALBUM{
+        margin-left: 0px;
+        width: 370px;
+        align-items: center;
+    }
+    .Encabezados{
+        font-size: 1rem;
+    }
+    h8{
+        font-size: 0.8rem;
+    }
+    .TituloAlbum{
+        text-align: center;
+        margin-top: 10px;
+    }
+   
+
+
+}

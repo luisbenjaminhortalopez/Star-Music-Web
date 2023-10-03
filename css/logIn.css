@@ -1,0 +1,136 @@
+body{
+    background: rgb(67,67,106);
+    background: linear-gradient(0deg, rgba(67,67,106,1) 0%, rgba(60,64,97,1) 8%, rgba(39,39,79,1) 27%, rgba(36,36,70,1) 45%, rgba(10,9,15,1) 100%);
+    padding-bottom: 300px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.barraNav a {
+    color: rgb(255, 255, 255);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    text-shadow: 0 0 5px black;
+
+}
+
+.barraNav {
+    background: rgb(231, 81, 0);
+    background: linear-gradient(90deg, rgba(231, 81, 0, 1) 0%, rgba(255, 166, 0, 1) 26%, rgba(253, 145, 29, 1) 50%, rgba(254, 166, 13, 1) 77%, rgba(255, 102, 0, 1) 100%);
+
+}
+
+.logo {
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 60px;
+    width: 100px;
+}
+
+.login {
+    padding-left: 800px;
+}
+
+.login {
+    padding-left: 750px;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+.mi-jumbotron3{
+  
+  position: relative;
+    height: 500px;
+    margin: 0 px 0;
+    padding: 0px;
+    text-align: center;
+    }
+    .mi-jumbotron3 form{
+        counter-increment: initial;
+        padding: 100px;
+        color: #fff;
+
+    }
+    .mi-jumbotron3 container{
+        position:  absolute;
+        top: 60%;
+        left: 50%;
+        height: 500px;
+        width: 400px;
+        padding-top: 70px;
+        transform: translate(-50%, -50%);
+        background: rgba(0,0,0,.5);
+        box-sizing: border-box;
+        box-shadow: 0 15px 25px rgb(0 0 0 / 60%);
+        border-radius: 25px;
+        padding: 100px;
+        
+    }
+    .mi-jumbotron3 p{
+
+        width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(235, 239, 242);
+    margin-bottom: -15px;
+    border: none;
+    outline: none;
+    background: transparent;
+    }
+    .mi-jumbotron3 form {
+        width: 100%;
+        padding: 10px 0;
+        font-size: 15px;
+        color:#fff;
+        margin-bottom: 30px;
+        border: none;
+        outline: none;
+   
+        background: transparent;
+    
+    }
+
+    .mi-jumbotron3 button{
+        display: inline-block;
+        padding: 10px 20px;
+        color: #0ddce7;
+        background-color: rgb(46, 46, 52);
+        font-size: 16px;
+        margin-top: 40px;
+        letter-spacing: 4px;
+     
+    }
+    .mi-jumbotron3 input{
+        width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    }
+    .mi-jumbotron3 btn{
+        position: relative;
+        display: inline-block;
+        padding: 10px 20px;
+        color: #03e9f4;
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+        overflow: hidden;
+        transition: .5s;
+        margin-top: 40px;
+        letter-spacing: 4px;
+        border-style: hidden;
+        border-color: #fff;
+        border-bottom: none !important;
+    }
+    .linkregistro{
+        padding-top: 2000px;
+        font-size: 12px;
+    }

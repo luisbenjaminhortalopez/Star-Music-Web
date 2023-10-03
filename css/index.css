@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+.barraNav a {
+    color: rgb(255, 255, 255);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    text-shadow: 0 0 5px black;
+
+}
+
+.barraNav {
+    background: rgb(231, 81, 0);
+    background: linear-gradient(90deg, rgba(231, 81, 0, 1) 0%, rgba(255, 166, 0, 1) 26%, rgba(253, 145, 29, 1) 50%, rgba(254, 166, 13, 1) 77%, rgba(255, 102, 0, 1) 100%);
+
+}
+
+.logo {
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 60px;
+    width: 100px;
+}
+
+.login {
+    padding-left: 800px;
+}
+
+
+img {
+    width: 100%;
+}
+
+
+
+.ARTISTAS h1 {
+    padding-top: 200;
+    text-align: center;
+    color: rgb(255, 115, 0);
+    padding-top: 100px;
+    padding-bottom: 10px;
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+.sctHeader h1 {
+    font-size: 150px;
+}
+
+
+.login {
+    padding-left: 750px;
+}
+
+.logincount {
+    align-items: center;
+}
+
+.contL p {
+    align-items: center;
+    border-color: aliceblue;
+}
+
+.button h1 {
+    text-align: center;
+    font-size: 70px;
+    color: rgb(159, 226, 245);
+    text-shadow: 0 0 2px white;
+    padding-top: 75px;
+
+
+}
+
+.button {
+    border-radius: 50px;
+
+
+
+}
+
+.perfilArtista {
+    border-radius: 50%;
+    justify-content: center;
+    object-fit: cover;
+    overflow: hidden;
+    transition: 0.3s;
+
+}
+.ALBUM {
+    border-radius: 8%;
+    justify-content: center;
+    object-fit: cover;
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+.container{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+    
+    
+
+}
+.containerAlbum{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8%;
+    
+
+}
+
+
+    img:hover{
+    transform: scale(1.2);
+    }
+
+
+
+
+.ALBUM:hover{
+    transform: scale(1.1);
+    }
+
+
+
+
+
+
+.cuerpo {
+    background: linear-gradient(0deg, rgba(67, 67, 106, 1) 0%, rgba(60, 64, 97, 1) 8%, rgba(39, 39, 79, 1) 27%, rgba(36, 36, 70, 1) 45%, rgba(10, 9, 15, 1) 100%);
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+
+.genero {
+    border-radius: 5%;
+    margin-bottom: 30px;
+
+}
+
+.nombreArtista {
+    color: white;
+    padding-bottom: 40px !important;
+text-align: center;
+text-decoration: none;
+}
+
+
+.nombreArtista:hover{
+    color: white;
+}
+
+.nombreArtistaSmall {
+    color: white;
+    padding-bottom: 60px;
+    opacity: 50%;
+    text-align: center;
+}
+
+.ArtistaAlbum {
+    text-align: center;
+    color: white;
+    padding-bottom: 0px;
+}
+
+.footer {
+
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    background: rgb(231, 81, 0);
+    background: linear-gradient(90deg, rgba(231, 81, 0, 1) 0%, rgba(255, 166, 0, 1) 26%, rgba(253, 145, 29, 1) 50%, rgba(254, 166, 13, 1) 77%, rgba(255, 102, 0, 1) 100%);
+    padding-left: 60px;
+}
+
+
+
+
+
+@media (max-width: 575.98px) { 
+    h3{
+        font-size: 1rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 4rem !important;
+    }
+    h4{
+        font-size: 1rem;
+    }
+    h6{
+        font-size: 0.7rem;
+    }
+
+
+ }
+
+
+@media (max-width: 767.98px) { 
+
+ }
+
+
+@media (max-width: 991.98px) { }
+
+
+@media (max-width: 1199.98px) {  }
+
+
+@media (max-width: 1399.98px) {  }
